@@ -5,6 +5,7 @@
     transition: all 0.3s;
     list-style-type: none;
     text-decoration: none;
+    overflow-x: hidden;
 }
 .container{
     position: relative;
@@ -22,7 +23,8 @@ header{
     justify-content: space-between;
     padding: 50px;
     width: 100%;
-    position:absolute;
+    position:fixed;
+    top: 0px;
     z-index: 2;
 }
 .menu{
